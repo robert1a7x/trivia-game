@@ -1,4 +1,4 @@
-# Trybewallet
+# Trivia game
   
 
 # Contexto
