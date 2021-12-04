@@ -47,9 +47,7 @@ npm install
   
 
 ```
-
 cd trivia-game/ && npm start
-
 ```
 
   
