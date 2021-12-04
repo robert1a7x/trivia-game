@@ -24,7 +24,7 @@ class Ranking extends Component {
   render() {
     return (
       <div className="ranking-background">
-        <h2 data-testid="ranking-title">Ranking!</h2>
+        <h2 data-testid="ranking-title">Ranking</h2>
         <Link to="/">
           <button data-testid="btn-go-home" type="button">Jogar Novamente!</button>
         </Link>

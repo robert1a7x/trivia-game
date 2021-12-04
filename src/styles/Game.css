@@ -24,7 +24,7 @@
   border: 1px solid black;
   cursor: pointer;
   padding: 8px 12px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .buttons-container button:hover {
@@ -34,28 +34,30 @@
 .buttons-container button:disabled {
   border: 1px solid black;
   cursor: default;
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(184, 184, 184);
 }
 
 .correctAnswer {
-  border: 3px solid rgb(6, 240, 15);
+  border: 3px solid rgb(6, 240, 15) !important;
 }
 
 .wrongAnswer {
-  border: 3px solid red;
+  border: 3px solid red !important;
 }
 
 .header-div {
   align-items: center;
-  background-color: #0c8355;
-  border-radius: 4px;
-  box-shadow: 2px 2px 8px rgb(27, 27, 27);
+  background-color: rgb(245, 245, 245);
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 8px;
-  width: 95%;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  border-bottom: 2px solid rgb(165, 165, 165);
+}
+
+.header-div img {
+  border-radius: 50%;
+  margin-left: 100px;
 }
 
 .next-button {

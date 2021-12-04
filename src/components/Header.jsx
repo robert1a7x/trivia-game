@@ -18,7 +18,9 @@ class Header extends Component {
         <p data-testid="header-player-name">{ name }</p>
         <p>
           Score:
+          { ' ' }
           <span
+            style={ { marginRight: '100px' } }
             data-testid="header-score"
           >
             { score }

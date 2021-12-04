@@ -10,16 +10,22 @@
   background-color: rgb(226, 221, 215);
   border-radius: 8px;
   box-shadow: 2px 2px 4px black;
+  height: 300px;
   margin-top: 50px;
   padding: 10px;
+  width: 500px;
+}
+
+.results-box p {
+  margin-top: 30px;
 }
 
 .results-box button {
   background-color: #0c8355;
   border: none;
   border-radius: 4px;
-  box-shadow: 2px 1px 3px black;
   color: white;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 8px 15px;
+  margin-top: 25px;
 }
