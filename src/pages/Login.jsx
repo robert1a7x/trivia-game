@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import logo from '../trivia.png';
 import { getTokenActionThunk, getUserAction } from '../actions';
 import '../styles/Login.css';
 
@@ -49,11 +49,11 @@ class Login extends Component {
     const { error, message } = this.props;
     return (
       <div className="login-background">
-        <h1>Trybe Trivia</h1>
+        <img src={ logo } alt="trivia-logo" />
         <form>
           <label htmlFor="name">
-            Nome
             <input
+              placeholder="Nome"
               data-testid="input-player-name"
               type="text"
               name="name"
@@ -63,8 +63,8 @@ class Login extends Component {
             />
           </label>
           <label htmlFor="email">
-            E-mail
             <input
+              placeholder="E-mail"
               data-testid="input-gravatar-email"
               type="email"
               name="email"
@@ -82,11 +82,6 @@ class Login extends Component {
             Jogar
           </button>
         </form>
-        <Link to="/configuration">
-          <button type="button" data-testid="btn-settings">
-            Configurações
-          </button>
-        </Link>
         { error && <p>{`Erro: ${message} - tente novamente`}</p>}
       </div>
     );

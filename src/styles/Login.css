@@ -6,29 +6,30 @@
   height: 100vh;
 }
 
-.login-background h1 {
-  color: white;
-  font-size: 40px;
-  text-shadow: 3px 3px black;
+.login-background img {
+  margin: 100px 0;
+  width: 600px;
 }
 
 input, button {
+  border: none;
   border-radius: 4px;
   margin: 10px;
+  padding: 8px;
 }
 
 .login-background button {
-  background-color: #0c8355;
+  background-color: #095e3d;
   border: none;
   border-radius: 4px;
-  box-shadow: 2px 1px 3px black;
   color: white;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 8px 15px;
 }
 
 button:disabled {
   background-color: grey;
+  cursor: default;
 }
 
 .login-background form {
