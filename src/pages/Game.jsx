@@ -163,7 +163,7 @@ class Game extends Component {
   renderQuestion() {
     const { questions, clickedAnswer, disabledBtn, indexNext } = this.state;
     return (
-      <div>
+      <div className="buttons-container">
         { questions[indexNext].arrayAnswer.sort().map((answer, index, array) => (
           <button
             disabled={ clickedAnswer.length > 0 || disabledBtn }

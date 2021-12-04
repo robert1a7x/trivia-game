@@ -7,11 +7,34 @@
 }
 
 .game-box {
-  background-color: rgb(226, 221, 215);
+  align-items: center;
+  background-color: rgb(238, 238, 238);
   border-radius: 8px;
   box-shadow: 2px 2px 4px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  width: 800px;
   margin-top: 50px;
   padding: 10px;
+}
+
+.buttons-container button {
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: 0.5s;
+}
+
+.buttons-container button:hover {
+  background-color: rgb(81, 161, 83);
+}
+
+.buttons-container button:disabled {
+  border: 1px solid black;
+  cursor: default;
+  background-color: rgb(179, 179, 179);
 }
 
 .correctAnswer {
@@ -42,7 +65,8 @@
   box-shadow: 2px 1px 3px black;
   color: white;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 10px 20px;
+  width: 150px;
 }
 
 .loading {
