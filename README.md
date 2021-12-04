@@ -55,3 +55,6 @@ cd trivia-game/ && npm start
   
 
 ## Gif da aplicação
+
+![trivia](https://user-images.githubusercontent.com/79478208/144718830-4465b284-3e8d-4547-af8f-7c87d81a47c1.gif)
+
