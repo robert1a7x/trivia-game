@@ -21,7 +21,7 @@ Neste projeto foi desenvolvido um jogo de perguntas e respostas baseado no jogo 
   - Visualizar a página de ranking, se quiser, ao final de cada jogo.
 
 
-## Técnologias usadas
+## Tecnologias usadas
 
   
   
